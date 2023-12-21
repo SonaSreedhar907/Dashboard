@@ -1,7 +1,8 @@
 import React from 'react'
 import 
- {BsFillBellFill, BsFillEnvelopeFill, BsPersonCircle, BsSearch, BsJustify}
+ {BsPersonCircle,BsJustify}
  from 'react-icons/bs'
+ import { GoChevronDown } from "react-icons/go";
 
 function Header() {
   return (
@@ -10,12 +11,11 @@ function Header() {
             <BsJustify className='icon'/>
         </div>
         <div className='header-left'>
-            <BsSearch  className='icon'/>
+            
         </div>
         <div className='header-right'>
-            <BsFillBellFill className='icon'/>
-            <BsFillEnvelopeFill className='icon'/>
-            <BsPersonCircle className='icon'/>
+           <button className='buttons'><BsPersonCircle className='icon'/>Sona Sreedhar</button>  
+           <button className='buttons-two'><GoChevronDown/></button>
         </div>
     </header>
   )

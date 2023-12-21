@@ -59,7 +59,6 @@ function Home() {
           </div>
         </div>
 
-
         <div className="card">
           <div className="card-inner">
             <h2 className="basic">Basic</h2>
@@ -83,36 +82,76 @@ function Home() {
             <h3 className="features">Explore Features →</h3>
           </div>
         </div>
-       
-
-
-
-
-
-
       </div>
 
-      {/* <div className="main-cards">
-        <div className="card">
-          <div className="card-inner">
-            <h2>Basic</h2>
-            <h4 className="discount-price">$9.99</h4>
-            <h2 className="original-price">$10000</h2>
-            <button className="get-started-btn">Get Started</button>
-            <hr />
-            <h5 className="feature-title">What you'll get:</h5>
-            <CiUser className="icon" />
-            <span>Up to 25 Users</span>
-            <br />
-            <TiCloudStorageOutline className="icon" />
-            <span>Up to 25GB Storage</span>
-            <br />
-            <MdOutlineMail className="icon" />
-            <span>Email Support</span>
-            <h3 className="features">Explore Features</h3>
+      <div className="main-cards">
+        <div className="cards">
+          <div className="card-inners">
+            <div className="left">
+              <button className="get-started-btn-new">Free Forever</button>
+              <h2>Free Starter</h2>
+              <p>
+                The quickest and the easiest way to try <br />
+                protocols with basic functionalities
+              </p>
+              <button>Get Started →</button>
+            </div>
+            <div className="right">
+              <h6>What you'll get</h6>
+              <div className="three">
+                <CiUser className="icon" />
+                <span>Up to 25 Users</span>
+                <br />
+                <TiCloudStorageOutline className="icon" />
+                <span>Up to 25GB Storage</span>
+                <br />
+                <MdOutlineMail className="icon" />
+                <span>Email Support</span>
+              </div>
+            </div>
           </div>
         </div>
-        </div> */}
+
+        <div className="cards">
+          <div className="card-inners">
+            <div className="left">
+              <button
+                className="get-started-btn-new"
+                style={{ backgroundColor: "cornflowerblue" }}
+              >
+                Free Forever
+              </button>
+              <h2>Free Starter</h2>
+              <p>
+                The quickest and the easiest way to try <br />
+                protocols with basic functionalities
+              </p>
+              <button
+                style={{
+                  backgroundColor: "cornflowerblue",
+                  borderColor: "cornflowerblue",
+                  borderRadius: "2px",
+                }}
+              >
+                Get Started →
+              </button>
+            </div>
+            <div className="right">
+              <h6>What you'll get</h6>
+              <div className="three">
+                <CiUser className="icon" />
+                <span>Up to 25 Users</span>
+                <br />
+                <TiCloudStorageOutline className="icon" />
+                <span>Up to 25GB Storage</span>
+                <br />
+                <MdOutlineMail className="icon" />
+                <span>Email Support</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
